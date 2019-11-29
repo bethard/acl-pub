@@ -1,17 +1,11 @@
 ---
 layout: default
-title: Book Chair Instructions
+title: Instructions for generating proceedings in START
 updated: 16 dec 2018 by slukin
 
 ---
 
-Your are a Book Chair if you are a Workshop Chair, Demo Chair, Industry Chair, SRW Chair, Tutorial Chair, or Conference Publication Chair: You will put together a beautiful book to be printed and hosted on the [ACL Anthology](https://aclanthology.coli.uni-saarland.de/)! 
-
-
 # How to produce proceedings for ACL Conferences and Workshops
-Previous document: [I'm a Book Chair, so what am I supposed to do?](001.overview.md) 
-
-Next document: [Building for ACL Web Anthology](full-aclweb-proceedings-howto.md) **for conference pub-chairs only**
 
 Document originally written by Meg Mitchell, for ACL 2017, NAACL 2018, and ACL 2018, combining and building off of work and writing from Matt Post and the original ACLPUB instructions. Additional details provided by Stephanie Lukin after NAACL 2018. 
 
