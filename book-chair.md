@@ -10,15 +10,12 @@ You are a Book Chair if you are a Workshop Chair, Demo Chair, Industry Chair, SR
 I'm a Book Chair, so what am I supposed to do?
 ===================================================
 
-Next README Document:  [Producing Proceedings](002.book.md)
-
 ## Table of Contents
 
-* [Responsiblities](#responsibilities)
+* [Responsibilities](#responsibilities)
 * [The Process](#the-process)
 * [Setting up the Final submission page to collect the Camera ready papers](#setting-up-the-final-submission-page-to-collect-the-camera-ready-papers)
-* [Producing Proceedings](002.book.md)
-* [The Templates](#the-templates)
+* [Producing Proceedings](aclpub-start.md)
 * [Authors](#authors)
 
 Responsibilities
@@ -28,37 +25,33 @@ Produce the proceedings for your workshop or conference. Make sure they don't ha
 The Process
 ---------------
 
-1. Authors use [the style templates below](#the-templates), to create the camera-ready papers.
+1. Authors use the templates, provided by you, to create camera-ready papers.
    1. There's an FAQ for authors here, and feel free to add more: [camera-ready-faq.md](camera-ready-faq.md)
    
 2. Remind authors: 
-    1. The date the camera-ready is due
-    2. Camera-ready long papers may include 9 pages
-    3. Unlimited pages for references and appendices
-    4. The margin rulers and anonymization 
+    1. The date the camera-ready papers are due
+    2. Page limits for camera-ready papers
+    3. The margin rulers and anonymization 
        can be removed by uncommenting the <code>\aclfinalcopy</code> 
        command near the top of the .tex file.
        
 3. Set up the Final Submission Page on your Softconf website. 
-   1. Your Softconf website is probably something like: 
-   "https://www.softconf.com/naacl2019/" + your Softconf acronym (listed on your conference spreadsheet, e.g., [NAACL 2019](https://docs.google.com/spreadsheets/d/1hSlqWCcTHZw-vaUQz-CBULIWtO99e0mNI8QP9sDohT0/edit?usp=sharing))
+   1. Your Softconf website is something like `https://www.softconf.com/naacl2019/SemEval`, with `naacl2019` replaced by the conference name and `SemEval` replaced by your volume name. This information should be provided to you by your conference publication chair.
    2. The Final Submission Page has several fields for uploading attachments. These have names like **Final Attachment - Software**. The type following the hyphen is significant; it will be displayed (after inserting spaces in the right places) on the ACL Anthology. Currently, the typical set of types is: `LaTeXSource`, `Software`, `Dataset`, and `Note`. If you want to use a different set of types, it would be good to discuss this with the ACL Anthology Editor.
    
 4. Remind authors again of the camera-ready due date; preferably two weeks before, 1 week before, 3 days before, and 1 day before.
 
-5. Authors upload camera-ready papers by logging into the submission page on START, at "https://www.softconf.com/acl2018/" + your Softconf acronym (listed on your conference spreadsheet, e.g., [NAACL 2019](https://docs.google.com/spreadsheets/d/1hSlqWCcTHZw-vaUQz-CBULIWtO99e0mNI8QP9sDohT0/edit?usp=sharing)) + "/papers".
+5. Authors upload camera-ready papers by logging into the submission page on START.
 
 6. Once they've uploaded to START, now you:
-    1. <a href="002.book.md">Generate proceedings within START</a>
+    1. <a href="aclpub-start.md">Generate proceedings within START</a>
     2. Download the proceedings to see all issues
-    3. Address the issues in START
+    3. Address any issues in START
     4. Repeat steps i-iii until the proceedings are good to go.
     
-7.  Let the publication chairs know whne you have finished (you do not need to email the finished tar to them)
+7.  Let the publication chairs know when you have finished. You do not need to email the finished tarball to them.
 
-This page will be regularly updated with information for **Organizers** of co-hosted conferences and workshops.
-
-Email the publications chairs if you have questions about preparing your paper or proceedings.
+Email your conference publications chairs if you have questions about preparing your paper or proceedings.
 
 
 Setting up the Final submission page to collect the Camera ready papers
@@ -73,47 +66,6 @@ If a final submission page is not yet available, please create one by clicking o
 When you are satisfied with the final submission page, you need to make it visible by activating it. To activate it, please go in the Manager Console, then _Visibility/Phasing/Deadlines_. Make the page the only one visible for **Revision**, and be sure to set a reasonable **deadline** for the page.
 
 To test if the page works properly, you need to try it using the passcode of an accepted paper. To get the passcode, you can use the Spreadsheet Maker in the Manager Console.
-
-The Templates
----------------
-
-<div class="panel panel-default col-lg-12">
-  <div class="col-lg-4">
-    <h4>LaTeX style files</h4>
-    <div class="col-xs-12" style="height:3px;"></div>
-    <a href="https://naacl2019.org/downloads/naaclhlt2019-latex.zip">
-      <button type="button" class="btn btn-primary">Download NAACL 2019 .zip with all LaTeX files</button>
-    </a>
-  </div>
-  
-  <div class="col-lg-4">
-    <h4>Microsoft Word templates</h4>
-    <div class="col-xs-12" style="height:3px;"></div>
-    <div>
-      <a href="https://naacl2019.org/downloads/naaclhlt2019-word.zip">
-        <button type="button" class="btn btn-warning">Download NAACL 2019 .zip with Word templates</button>
-      </a>
-    </div>
-  </div>
-  
-  <div class="col-lg-4">
-    <h4>Online LaTeX templates</h4>
-    <a href="https://www.overleaf.com/latex/templates/instructions-for-naacl-hlt-2019-proceedings/xyyfwfkswhth">
-      <button type="button" class="btn btn-success">Open NAACL 2019 template in Overleaf</button>
-    </a><br/>
-</div>
-  
-<div class="panel panel-default col-lg-12">
-  <div class="panel-body">
-  <div class="embed-responsive embed-responsive-4by3">
-    <!-- <iframe src="https://docs.google.com/viewer?url=#.pdf"></iframe> --->
-  </div>
-  </div>
-</div> 
-
-
-
-_Acknowledgments:_ The aclpub package and documentation were built in 2005 by Jason Eisner and Philipp Koehn, based in part on scripts by David Yarowsky that had been used for several years previously.
 
 Authors
 ---------------
