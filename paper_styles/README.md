@@ -1,6 +1,20 @@
-The latex/ and word/ directories should contain only the current years' submission. Older templates will be migrated to the archive/ directory. 
+This directory contains the latest LaTeX and Word templates for *ACL
+conferences.
 
-ACL and NAACL templates are now maintained in the same git repository, and will both make use of the same .sty, .bib, and .bst files, though the .sty and .bib files might be renamed to acl20xx and naaclhlt20xx appropriately each year. Also, be sure to change the "Anonymous Submission" and "Paper ID" labels in the .sty file for ACL and NAACL. 
+To adapt them for your conference, please fork this repository and
+make necessary changes. Minimally, you'll need to update the name of
+the conference and rename the files.
+
+If you make improvements to the templates that should be propagated to
+future conferences, please submit a pull request. Thank you in
+advance!
+
+In older versions of the templates, authors were asked to fill in the
+START submission ID so that it would be stamped at the top of each
+page of the anonymized version. This is no longer needed, because it
+is now possible to do this stamping automatically within
+START. Currently, the way to do this is by emailing
+support@softconf.com and requesting it for your conference.
 
 ====
 
