@@ -41,7 +41,7 @@ There are several critcal times for pub-chairs. I will include the NAACL 2019 ti
 
 ### Early stages, prior to CFP
 
-* Update latex and word templates. Make sure that NAACL and ACL are using the same template 
+* Update [latex and word templates](https://github.com/acl-org/acl-pub/tree/gh-pages/paper_styles). Make sure that NAACL and ACL are using the same template 
 * Create an overleaf template
   * Click 'Journals/Services' > 'Submit to Overleaf Gallery'
 
