@@ -11,7 +11,7 @@ The final goal is to produce beautiful proceedings to be hosted on the [ACL Anth
 
 ## People pub-chairs regularly interface with: 
 * Pricilla Rasmussen, Local Arrangements Chair. Gives us the ISBN numbers
-* ACL Anthology editor. Give us the bibtex urls and support for uploading to the anthology
+* ACL Anthology editor. Support for uploading to the anthology
 * Handbook and Website/App Chair: their duties typically start just after the camera-ready time, and are primarily concerned with `order` files. You'll need to make sure that any changes they request are also reflected in the pdf proceedings. 
 * START/SoftConf support (support@softconf.com). Email them with any START-related issues. They are usually very quick to respond!
 
@@ -59,9 +59,9 @@ There are several critcal times for pub-chairs. I will include the NAACL 2019 ti
 * Create a google doc or shared spreadsheet (e.g., [from NAACL 2019](https://docs.google.com/spreadsheets/d/1hSlqWCcTHZw-vaUQz-CBULIWtO99e0mNI8QP9sDohT0/edit?usp=sharing)) and populate with the following for the main proceedings, workshops, SRW, demos, tutorials:
   * SoftConf abbreviation
   * Title (this must be correct for getting the ISBN)
+  * Short title (for future use, to potentially short citation lengths)
   * SIG: is this workshop to appear as a SIG on the anthology? the workshop organizers should know this
   * ISBN: a blank column to be filled in later by Pricilla
-  * Url Prefix for Proceedings: i.e., Bibtex url. A blank colunm to be filled in later by the Anthology Director
   * Url: workshop homepages
   * SoftConf url: for easy access
   * Optional columns for indicating if the proceedings have been finalized
@@ -87,7 +87,7 @@ There are several critcal times for pub-chairs. I will include the NAACL 2019 ti
 
 We do these for main conference proceedings. The other Book Chairs are left to do it for their own workshops, demos, etc, but we verify all of theirs as well 
 * Begin to complete the START proceedings for long and short papers following [aclpub-start.md](aclpub-start.md). This includes:
-  * CDROM tab (with bibtex url)
+  * CDROM tab
   * Citation stamp
   * ISBN
   * Order files
