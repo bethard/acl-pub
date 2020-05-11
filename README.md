@@ -14,7 +14,7 @@ You are a _conference publication chair_ if you are in charge of producing the p
 
 * [*conf-chair.md*](conf-chair.md): Overview of duties of conference publication chairs
 
-* [*ACLPUB anthologize documentation*](https://github.com/acl-org/ACLPUB/blob/master/anthologize/README.md): Instructions for converting proceedings as exported from START into the format required by the ACL Anthology
+* [*Generating proceedings for the Anthology*](https://github.com/acl-org/ACLPUB/blob/master/anthology/README.md): Instructions for converting proceedings as exported from START into the format required by the ACL Anthology
 
 ## For authors
 
