@@ -492,65 +492,67 @@ You will need to fill out this tab with the correct values for your volume. **Ev
 
 <kbd> ![alt text](assets/images/cdrom.png "The CDROM Tab.") </kbd>
 
-As an example, here are the values used for the NAACL 2018 long paper main conference proceedings:
+As an example, here are the values used for the ACL 2020 long paper main conference proceedings:
 
+| Field           | Value                         |
+| --------------- | --------------------------------------- |
+| Abbreviation    | acl          |
+| Title           | Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics |
+| URL             | https://acl2020.org.org/ |
+| Book Title  	  | Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics |
+| Short Book Title |  Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics |
+| Volume          | 1 |
+| Month           | July |
+| Year            |  2020 |
+| Location      	|  Seattle, Washington |
+| Publisher	      |  Association for Computational Linguistics |
+| Chair 1        	|  Dan Jurafsky |
+| Chair 2        	|  Joyce Chai |
+| Chair 3        	|  Natalie Schluter |
+| Chair 4        	|  Joel Tetreault |
+| Chair 5        	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
+| Chair 6        	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
+| Chair 7        	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
+| Chair 8        	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
+| Chair 9        	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
+| Chair 10        |  TOBEFILLED-Jill Burstein (Educational Testing Service) |
 
-| Field           | Value                         | 
-| ------------------ | --------------------------------------- |
-| Abbreviation          | N18-1          | 
-|    Type	|  Main Conference |
-|    Title	|  The 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers) |
-|    URL	|          http://naacl2018.org/ |
-|    Book Title	|  Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers) |
-|    Month	|  June |
-|    Year       |   2018 |
-|    Location	|  New Orleans, Louisiana |
-|    Publisher	|  Association for Computational Linguistics |
-|    Chair 1	|  Marilyn Walker (University of California, Santa Cruz) |
-|    Chair 2	|  Heng Ji (Rensselaer Polytechnic Institute)  |
-|    Chair 3	|  Amanda Stent (Bloomberg) |
-|    Chair 4	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
-|    Chair 5	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
-|    Chair 6	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
-|    Chair 7	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
-|    Chair 8	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
-|    Chair 9	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
-|    Chair 10	|  TOBEFILLED-Jill Burstein (Educational Testing Service) |
-|    Bibtex URL	|  http://www.aclweb.org/anthology/N18-1%03d |
+Note that, in 2020, the Anthology moved to a [new ID format](https://www.aclweb.org/anthology/info/ids/).
+There is no longer any "Bibtex URL" for producing the Anthology ID; instead, the Anthology volume identifier is now formed as `{year}.{abbrev}-{volume}` (from the **Abbreviation**, **Year**, and **Volume** fields above).
+These three constitute the volume ID (e.g., `2018.semeval-1`), which is prefixed to the paper ID to form the complete paper identifiers (e.g., `2020.acl-1.19` for the 19th paper in the first volume).
 
-The **Bibtex URL** will be assigned to you by the ACL anthology editor, and should be entered exactly as it appears. Do not change it without consulting them.
+Please note the following restrictions on these fields:
 
-The `Bibtex URL` uses 8 characters to identify the conference/workshop and paper, after the `http://www.aclweb.org/anthology/` prefix.  You must make sure that the Bibtex URL provides for these 8 characters, but adding %03d (3 digits) or %02d (2 digits). 
+- **abbrev** will be lowercased when forming file names.
+  It can only contain ASCII letters and numbers ([A-Za-z0-9]+).
+  Please be consistent with prior years.
+  Your volume will appear under `https://aclweb.org/anthology/venues/{abbrev}`.
+- **year** is the four-digit year.
+- **volume** is the name of the volume.
+  Most workshops have just a single volume, in which case you can just use "1".
+  For larger conferences with multiple volumes, you may wish to choose short, informative names (e.g., "short" for short papers, "long" for long papers, "srw" for papers in a Student Research Workshop, etc.)
 
-The first values after the hyphen identify the workshop or ACL event.
-The remaining values specify the paper ID. 
+It important to ise  get these values correct and consistent with past venues.
+You can consult the Anthology to see the abbreviation for past events.
 
-For example, in an NAACL main event in year 2018 (long papers, short papers, industry papers, demos, student research workshop, and tuorials), the 8 characters will begin with `N18-`.  This stands for "NAACL, 2018". For a workshop in year 2018, the 8 characters will begin with `W18-`.  This stands for "Workshop, 2018".  
+The **Book Title** value should be the same as the **Title** but with "Proceedings of" at the beginning.
+The main volumes (long, short, industry, papers, demos, SRW, tutorials) should share a similar title and book title, e.g,. 
 
-For workshops, we provide you with enough prefix that you need to specify just %02d additional following digits.  For example, if you're the 5th workshop listed, your bibtex URL will look like this: 
-
-    Bibtex URL	    http://www.aclweb.org/anthology/W18-05%02d
-
-By specifying 2 more digits, we can create a paper for aclweb.  E.g., the first workshop paper in the 5th workshop in 2016 is http://www.aclweb.org/anthology/W16-0501.pdf.
-
-For full ACL proceedings, specifying http://www.aclweb.org/anthology/N18-1%03d, we can create, e.g., http://www.aclweb.org/anthology/N18-1000.pdf (compare: http://www.aclweb.org/anthology/N16-1000.pdf).  
-       
-The **abbreviation should be standardized to match the bibtex urls**. E.g., with a bibtex url of `http://www.aclweb.org/anthology/N18-1%03d` the abbreviation should be `N18-1`; similarly, with a bibtex url of `http://www.aclweb.org/anthology/W18-05%02d` the abbreviation should be `W18-05`, and 
- a bibtex url of `http://www.aclweb.org/anthology/S18-1%03d` the abbreviation should be `S18-1`.
-
-The **Book Title** value should be the same as the **Title** but with "Proceedings of" at the beginning. The main volumes (long, short, industry, papers, demos, SRW, tutorials) should share a similar title and book title, e.g,. 
 > Title: The 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Student Research Workshop  
-> Book Title: Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Student Research Workshop
+> Book Title: Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Student Research Workshop  
+> Short Book Title: Proceedings of the NAACL 2018 Student Research Workshop  
 
-and   
+and
 
 > Title: The 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations  
-> Book Title: Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations
+> Book Title: Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations  
+> Short Book Title: Proceedings of the NAACL 2018 Demonstrations  
 
 An example of a workshop:
 
 > Title: The Thirteenth Workshop on Innovative Use of NLP for Building Educational Applications
 > Book Title: Proceedings of the Thirteenth Workshop on Innovative Use of NLP for Building Educational Applications
+> Short Book Title: Proceedings of BEA
 
 **Note:** The format of the titles in the CDROM tab are different from how it is printed on `titlepage.tex` on purpose.
 
@@ -739,3 +741,4 @@ large number of volunteers, including past NAACL publications chairs
 [William Schuler](https://www.ling.ohio-state.edu/~schuler/),
 and
 [Richard Wicentowski](http://www.cs.swarthmore.edu/~richardw/).
+
