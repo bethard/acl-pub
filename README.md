@@ -1,5 +1,10 @@
 # Publications-related documentation for *ACL conferences
 
+This repository is the official source of information (including [templates](paper_styles/) for those involved with the publications process for \*ACL conferences.
+There is information here for book chairs, publication chairs, and authors.
+It improves over time as people update and add to it, so during or after your conference experience, please take some time to [issue a pull request](https://github.com/acl-org/acl-pub/pulls) with any new information or clarifications you may have come across.
+In particular, changes to the style templates should be preserved here.
+
 ## For book chairs
 
 You are a _book chair_ if you are a conference publication chair, or if you are a workshop chair, demo chair, industry track chair, SRW chair, tutorial chair, in charge of producing a proceedings volume to deliver to the conference publication chair.
