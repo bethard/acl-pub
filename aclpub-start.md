@@ -498,7 +498,7 @@ As an example, here are the values used for the ACL 2020 long paper main confere
 | --------------- | --------------------------------------- |
 | Abbreviation    | acl          |
 | Title           | Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics |
-| URL             | https://acl2020.org.org/ |
+| URL             | https://acl2020.org/ |
 | Book Title  	  | Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics |
 | Short Book Title |  Proceedings of the ACL |
 | Volume          | 1 |
