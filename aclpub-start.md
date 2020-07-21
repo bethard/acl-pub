@@ -498,7 +498,7 @@ As an example, here are the values used for the ACL 2020 long paper main confere
 | --------------- | --------------------------------------- |
 | Abbreviation    | acl          |
 | Title           | The 58th Annual Meeting of the Association for Computational Linguistics |
-| URL             | https://acl2020.org.org/ |
+| URL             | https://acl2020.org/ |
 | Book Title  	  | Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics |
 | Short Book Title |  Proceedings of the ACL |
 | Volume          | 1 |
@@ -566,8 +566,6 @@ Note: If you create a custom program **make sure that the order file matches the
 <kbd>![alt text](assets/images/program.png "The Program Tab.")</kbd>
 
 
-
-
 ## Step 8:  Toc Tab
 [Jump to Step 9](#step-9--generate-tab-trophy-trophy)
 
@@ -576,10 +574,7 @@ Customize your `toc.tex` here.  This is generated automatically in the Templates
 <kbd>![alt text](assets/images/toc.png "The Table of Contents Tab.")</kbd>
 
 
-
-
 ## Step 9:  Generate! Tab :trophy: :trophy:
-
 
 <kbd>![alt text](assets/images/generate.png "The Generate Tab.")</kbd>
    
